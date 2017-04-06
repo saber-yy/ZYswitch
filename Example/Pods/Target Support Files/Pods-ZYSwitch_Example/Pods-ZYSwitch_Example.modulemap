@@ -1,0 +1,6 @@
+framework module Pods_ZYSwitch_Example {
+  umbrella header "Pods-ZYSwitch_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
