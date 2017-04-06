@@ -15,11 +15,11 @@ Pod::Spec.new do |s|
      这是一个自定义switch，支持换颜色，等功能
                        DESC
 
-  s.homepage         = 'https://github.com/zhuoapp/ZASwitch'
+  s.homepage         = 'https://github.com/saberShenFeng/ZYswitch'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhaoyiyu' => 'zhaoyiyu@zhuaapp.com' }
-  s.source           = { :git => 'https://github.com/zhuoapp/ZASwitch.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/saberShenFeng/ZYswitch.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
