@@ -1,9 +1,9 @@
 {
   "name": "ZYSwitch",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "summary": "这是一个自定义switch",
   "description": "这是一个自定义switch，支持换颜色，等功能",
-  "homepage": "https://github.com/zhuoapp/ZASwitch",
+  "homepage": "https://github.com/saberShenFeng/ZYswitch",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "zhaoyiyu": "zhaoyiyu@zhuaapp.com"
   },
   "source": {
-    "git": "https://github.com/zhuoapp/ZASwitch.git",
-    "tag": "1.0.2"
+    "git": "https://github.com/saberShenFeng/ZYswitch.git",
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "8.0"
@@ -21,5 +21,11 @@
   "source_files": "ZYSwitch/Classes/**/*",
   "resources": [
     "ZYSwitch/Assets/*.xcassets"
-  ]
+  ],
+  "resource_bundles": {
+    "ZYSwitch": [
+      "ZYSwitch/Assets/*.png"
+    ]
+  },
+  "public_header_files": "ZYSwitch/Classes/**/*.h"
 }

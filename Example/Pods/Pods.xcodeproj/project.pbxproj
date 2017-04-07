@@ -9,16 +9,17 @@
 /* Begin PBXBuildFile section */
 		0DF2A8B0F3C8A5660768FA075744F737 /* Pods-ZYSwitch_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3D1FBE8B6CBF78562F9E78B002C313 /* Pods-ZYSwitch_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		13D17D66E93C92FD25D6094AC0136CD2 /* Pods-ZYSwitch_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D80ED1A5C620C39BE1D92E123AD17C3D /* Pods-ZYSwitch_Tests-dummy.m */; };
+		25808CBC8DFDA2D166F08692A054D888 /* ZYSwitch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0C071BFFD09B7FF29DA24A24495CA705 /* ZYSwitch.bundle */; };
 		84AFB28CCCD5365865CA5936054B8F9D /* Pods-ZYSwitch_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F5D4E011FE71F038482092E53ACD55 /* Pods-ZYSwitch_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A3DBA3E2814F92E715449064D2ABCF8 /* ZYSwitch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CA889A283044ECEC503534504F0FE9C /* ZYSwitch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3FE1251670211E85479C3EB26012EEC /* image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C272618C49EAD97AD250DC8D728C7DED /* image.xcassets */; };
+		9A3DBA3E2814F92E715449064D2ABCF8 /* ZYSwitch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8864A7F23AA3CD80B58D0DC8AF56D7F5 /* ZYSwitch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3EAAC90C175A0207F7C8C7376D707F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		C44F13A8A56F6B6B37733E6E038E1AB3 /* ZYSwitch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 117187CFF63F456CCA636F1D95E39BB6 /* ZYSwitch-dummy.m */; };
-		C4B15F4AC3E60780717F9148CD63F83B /* ZASwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = EADC099DA744A0CC3BC280FAE4727AA8 /* ZASwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C60945F946B6A5E97712E9EBC92D9B1E /* ZASwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 090FC89D0B88B580A09774B1620AC94B /* ZASwitch.m */; };
+		C44F13A8A56F6B6B37733E6E038E1AB3 /* ZYSwitch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3243A7FE0844745B7B69AEB792B6BE15 /* ZYSwitch-dummy.m */; };
+		C4B15F4AC3E60780717F9148CD63F83B /* ZASwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = EB89B097977884A7A1933A8BFDEB2585 /* ZASwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C60945F946B6A5E97712E9EBC92D9B1E /* ZASwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A92856F439D856FA7649D3E9EBDAEE8 /* ZASwitch.m */; };
 		DDB781F9D70CD71A1134D7EC68A9FA34 /* Pods-ZYSwitch_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDC222399B5E720C35D329494FF0E4F /* Pods-ZYSwitch_Example-dummy.m */; };
 		DDE2E99B51947B3560090FF1D7B3C896 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		E9F372F27C34859D79E767A432D4DB0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		FF191CE358EE3C43A2F47D5BE6056C68 /* switch.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB446D29CEC1976FFA5DF81FF3C39763 /* switch.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,39 +30,48 @@
 			remoteGlobalIDString = 7C776753DE63CEA03C014652FB43A3B8;
 			remoteInfo = ZYSwitch;
 		};
+		F06F0C33F8CC69D3CA14F21207414B13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C56280874A8F912D5A99A2490709AFD8;
+			remoteInfo = "ZYSwitch-ZYSwitch";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		090FC89D0B88B580A09774B1620AC94B /* ZASwitch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZASwitch.m; sourceTree = "<group>"; };
+		0C071BFFD09B7FF29DA24A24495CA705 /* ZYSwitch.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ZYSwitch.bundle; path = ZYSwitch.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D656F12FFDAAF3CF67915D2E4D674A0 /* Pods-ZYSwitch_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYSwitch_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		117187CFF63F456CCA636F1D95E39BB6 /* ZYSwitch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZYSwitch-dummy.m"; sourceTree = "<group>"; };
-		28EB44B87101B24CF6A1A71798306C0E /* ZYSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZYSwitch.framework; path = ZYSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3969A79A850819D76E52B1AC98D2EEC7 /* ZYSwitch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ZYSwitch.modulemap; sourceTree = "<group>"; };
-		3A679D56547DABEF3A2427F44F639556 /* Pods_ZYSwitch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZYSwitch_Example.framework; path = "Pods-ZYSwitch_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18049F89CD447A060CC19EF3608EADB9 /* ZYSwitch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYSwitch-prefix.pch"; sourceTree = "<group>"; };
+		1FBACF8A734F510161FC411C593F400F /* ResourceBundle-ZYSwitch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZYSwitch-Info.plist"; sourceTree = "<group>"; };
+		3243A7FE0844745B7B69AEB792B6BE15 /* ZYSwitch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZYSwitch-dummy.m"; sourceTree = "<group>"; };
+		368ED5CE8A707981C2CD34A5A1A926CD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38141CF499347963BEC4607D78A46BDC /* ZYSwitch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ZYSwitch.modulemap; sourceTree = "<group>"; };
 		40CFD67DE42EB0AAD80F8DA05447C340 /* Pods-ZYSwitch_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZYSwitch_Example.modulemap"; sourceTree = "<group>"; };
-		4BC5FEC901B26FBD6E5EB0B79E1E380E /* ZYSwitch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZYSwitch.xcconfig; sourceTree = "<group>"; };
 		5270A89819377DC90625FED7B6CD8FF3 /* Pods-ZYSwitch_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZYSwitch_Example-frameworks.sh"; sourceTree = "<group>"; };
-		6CA889A283044ECEC503534504F0FE9C /* ZYSwitch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYSwitch-umbrella.h"; sourceTree = "<group>"; };
-		73BD8C17417CDAF4AAE6340A399698CB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D29AA7A54641129DA1EAE01B12EC5F2 /* Pods-ZYSwitch_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYSwitch_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		7FE28A37EEC137CE69742EE272B2230C /* Pods-ZYSwitch_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZYSwitch_Tests-resources.sh"; sourceTree = "<group>"; };
-		8FA8E17F153BCA619B743EF0277A67D3 /* Pods_ZYSwitch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZYSwitch_Tests.framework; path = "Pods-ZYSwitch_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8864A7F23AA3CD80B58D0DC8AF56D7F5 /* ZYSwitch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYSwitch-umbrella.h"; sourceTree = "<group>"; };
+		91A836DF7984E3EA4CADC375A99971B9 /* ZYSwitch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZYSwitch.xcconfig; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93C4ED04B71CCF10BF589BBF4D11B779 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93F5D4E011FE71F038482092E53ACD55 /* Pods-ZYSwitch_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZYSwitch_Tests-umbrella.h"; sourceTree = "<group>"; };
+		95EDEF1FBC8FC0503BFE83E5AF9BFCE4 /* Pods_ZYSwitch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZYSwitch_Tests.framework; path = "Pods-ZYSwitch_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A92856F439D856FA7649D3E9EBDAEE8 /* ZASwitch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZASwitch.m; sourceTree = "<group>"; };
 		A3543690A433683223B3A7835129F9DA /* Pods-ZYSwitch_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYSwitch_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B28B7C5FD9034011E5E5E5F52AB6AEB3 /* Pods-ZYSwitch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYSwitch_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B4BFF9B3D27EAE78D84244E0BAB6D4BA /* ZYSwitch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYSwitch-prefix.pch"; sourceTree = "<group>"; };
+		B7A82B2C3B2518997C7B8036C6B52BFA /* ZYSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZYSwitch.framework; path = ZYSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB446D29CEC1976FFA5DF81FF3C39763 /* switch.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = switch.xcassets; sourceTree = "<group>"; };
 		BFDC222399B5E720C35D329494FF0E4F /* Pods-ZYSwitch_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZYSwitch_Example-dummy.m"; sourceTree = "<group>"; };
-		C272618C49EAD97AD250DC8D728C7DED /* image.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = image.xcassets; sourceTree = "<group>"; };
 		C34D21E75E2911DB21D7501EAE625C9E /* Pods-ZYSwitch_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZYSwitch_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C6898353137B658C4AFB5FD3FEC73067 /* Pods_ZYSwitch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZYSwitch_Example.framework; path = "Pods-ZYSwitch_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7EFF7AEF514BE40A06ADE6D8D87D50A /* Pods-ZYSwitch_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZYSwitch_Example-resources.sh"; sourceTree = "<group>"; };
 		CA3D1FBE8B6CBF78562F9E78B002C313 /* Pods-ZYSwitch_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZYSwitch_Example-umbrella.h"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CE16DA8221BA7159BA9AC9374D060C53 /* Pods-ZYSwitch_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZYSwitch_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D80ED1A5C620C39BE1D92E123AD17C3D /* Pods-ZYSwitch_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZYSwitch_Tests-dummy.m"; sourceTree = "<group>"; };
 		E2AAF21D54D9A660D0827EA898FB38B7 /* Pods-ZYSwitch_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZYSwitch_Tests.modulemap"; sourceTree = "<group>"; };
-		EADC099DA744A0CC3BC280FAE4727AA8 /* ZASwitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZASwitch.h; sourceTree = "<group>"; };
+		EB89B097977884A7A1933A8BFDEB2585 /* ZASwitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZASwitch.h; sourceTree = "<group>"; };
 		EEC77D33E2C457D6E7340F24941BEFBE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F043B0FE72474FF0DE4FCC0D6574C4D9 /* Pods-ZYSwitch_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZYSwitch_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		F3BA09BF75898375FE091D22A3DD0EF9 /* Pods-ZYSwitch_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYSwitch_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -69,6 +79,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		11E7CE926C8C227480CF8E9BF188129B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2DB0F67B280C77A2CE994B8D624CAE5A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -96,32 +113,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1D7229AC9B379014118D7BEB8F568E0E /* Classes */ = {
+		41E77ABF7D82DEB58CAA9D4E6D9FF5C0 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				EADC099DA744A0CC3BC280FAE4727AA8 /* ZASwitch.h */,
-				090FC89D0B88B580A09774B1620AC94B /* ZASwitch.m */,
+				EB89B097977884A7A1933A8BFDEB2585 /* ZASwitch.h */,
+				9A92856F439D856FA7649D3E9EBDAEE8 /* ZASwitch.m */,
 			);
 			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		34FA9356379FEE33D7A55C9BB0629229 /* Resources */ = {
+		51149AA2A39DCD87B929475242CE9DB0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DD2C003ADE4C17A31B483DC7A47C3166 /* ZYSwitch */,
+				E143985D79ABCA5ED8E91FDF95F486FC /* ZYSwitch */,
 			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		40232B02D3405003A7CB4943EDB365EE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3A679D56547DABEF3A2427F44F639556 /* Pods_ZYSwitch_Example.framework */,
-				8FA8E17F153BCA619B743EF0277A67D3 /* Pods_ZYSwitch_Tests.framework */,
-				28EB44B87101B24CF6A1A71798306C0E /* ZYSwitch.framework */,
-			);
-			name = Products;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		55D81DCF15090767A72915522C71F130 /* Targets Support Files */ = {
@@ -131,6 +138,14 @@
 				5FB8F66D0C5A5802EF73543B4815C21B /* Pods-ZYSwitch_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5E9F0A578911E5DC318E5AFC64319DA1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6380205BCEE26FCF07784DAA2A529829 /* ZYSwitch */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		5FB8F66D0C5A5802EF73543B4815C21B /* Pods-ZYSwitch_Tests */ = {
@@ -151,6 +166,26 @@
 			path = "Target Support Files/Pods-ZYSwitch_Tests";
 			sourceTree = "<group>";
 		};
+		6380205BCEE26FCF07784DAA2A529829 /* ZYSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				9EB44C6BB8F99075B31109E9E4100ACF /* Assets */,
+			);
+			name = ZYSwitch;
+			path = ZYSwitch;
+			sourceTree = "<group>";
+		};
+		6387EA2057C4A27AC5E084EC7D093B51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6898353137B658C4AFB5FD3FEC73067 /* Pods_ZYSwitch_Example.framework */,
+				95EDEF1FBC8FC0503BFE83E5AF9BFCE4 /* Pods_ZYSwitch_Tests.framework */,
+				0C071BFFD09B7FF29DA24A24495CA705 /* ZYSwitch.bundle */,
+				B7A82B2C3B2518997C7B8036C6B52BFA /* ZYSwitch.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,39 +198,20 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				AB495AD327E76B4281E57D001A5163CD /* Development Pods */,
+				51149AA2A39DCD87B929475242CE9DB0 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				40232B02D3405003A7CB4943EDB365EE /* Products */,
+				6387EA2057C4A27AC5E084EC7D093B51 /* Products */,
 				55D81DCF15090767A72915522C71F130 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		812DCB9C71F9FF67A07ED28BAA1CFBFE /* ZYSwitch */ = {
+		9EB44C6BB8F99075B31109E9E4100ACF /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				34FA9356379FEE33D7A55C9BB0629229 /* Resources */,
-				D5497245A01AFA0B790110678138E599 /* Support Files */,
-				ACC181FCDDE1F11C33B9E20AB3AA2BE2 /* ZYSwitch */,
+				BB446D29CEC1976FFA5DF81FF3C39763 /* switch.xcassets */,
 			);
-			name = ZYSwitch;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		AB495AD327E76B4281E57D001A5163CD /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				812DCB9C71F9FF67A07ED28BAA1CFBFE /* ZYSwitch */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		ACC181FCDDE1F11C33B9E20AB3AA2BE2 /* ZYSwitch */ = {
-			isa = PBXGroup;
-			children = (
-				1D7229AC9B379014118D7BEB8F568E0E /* Classes */,
-			);
-			name = ZYSwitch;
-			path = ZYSwitch;
+			name = Assets;
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -206,36 +222,39 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C021B8632263C9304293A0518B686A5E /* Assets */ = {
+		E143985D79ABCA5ED8E91FDF95F486FC /* ZYSwitch */ = {
 			isa = PBXGroup;
 			children = (
-				C272618C49EAD97AD250DC8D728C7DED /* image.xcassets */,
+				5E9F0A578911E5DC318E5AFC64319DA1 /* Resources */,
+				F8D4137B743F014EB66EFE50B743EEED /* Support Files */,
+				EEF7F62A0E8F1C288FB2204C0584D93A /* ZYSwitch */,
 			);
-			name = Assets;
-			path = Assets;
+			name = ZYSwitch;
+			path = ../../Widget;
 			sourceTree = "<group>";
 		};
-		D5497245A01AFA0B790110678138E599 /* Support Files */ = {
+		EEF7F62A0E8F1C288FB2204C0584D93A /* ZYSwitch */ = {
 			isa = PBXGroup;
 			children = (
-				73BD8C17417CDAF4AAE6340A399698CB /* Info.plist */,
-				3969A79A850819D76E52B1AC98D2EEC7 /* ZYSwitch.modulemap */,
-				4BC5FEC901B26FBD6E5EB0B79E1E380E /* ZYSwitch.xcconfig */,
-				117187CFF63F456CCA636F1D95E39BB6 /* ZYSwitch-dummy.m */,
-				B4BFF9B3D27EAE78D84244E0BAB6D4BA /* ZYSwitch-prefix.pch */,
-				6CA889A283044ECEC503534504F0FE9C /* ZYSwitch-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZYSwitch";
-			sourceTree = "<group>";
-		};
-		DD2C003ADE4C17A31B483DC7A47C3166 /* ZYSwitch */ = {
-			isa = PBXGroup;
-			children = (
-				C021B8632263C9304293A0518B686A5E /* Assets */,
+				41E77ABF7D82DEB58CAA9D4E6D9FF5C0 /* Classes */,
 			);
 			name = ZYSwitch;
 			path = ZYSwitch;
+			sourceTree = "<group>";
+		};
+		F8D4137B743F014EB66EFE50B743EEED /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				368ED5CE8A707981C2CD34A5A1A926CD /* Info.plist */,
+				1FBACF8A734F510161FC411C593F400F /* ResourceBundle-ZYSwitch-Info.plist */,
+				38141CF499347963BEC4607D78A46BDC /* ZYSwitch.modulemap */,
+				91A836DF7984E3EA4CADC375A99971B9 /* ZYSwitch.xcconfig */,
+				3243A7FE0844745B7B69AEB792B6BE15 /* ZYSwitch-dummy.m */,
+				18049F89CD447A060CC19EF3608EADB9 /* ZYSwitch-prefix.pch */,
+				8864A7F23AA3CD80B58D0DC8AF56D7F5 /* ZYSwitch-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Example/Pods/Target Support Files/ZYSwitch";
 			sourceTree = "<group>";
 		};
 		FF4C90947D458BF6066ACE5C56523922 /* Pods-ZYSwitch_Example */ = {
@@ -302,7 +321,7 @@
 			);
 			name = "Pods-ZYSwitch_Example";
 			productName = "Pods-ZYSwitch_Example";
-			productReference = 3A679D56547DABEF3A2427F44F639556 /* Pods_ZYSwitch_Example.framework */;
+			productReference = C6898353137B658C4AFB5FD3FEC73067 /* Pods_ZYSwitch_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7C776753DE63CEA03C014652FB43A3B8 /* ZYSwitch */ = {
@@ -311,17 +330,35 @@
 			buildPhases = (
 				3626BB2E9F8512A15054A881C811ADB8 /* Sources */,
 				DCAE6F9F022ED20AD3840A2164F69797 /* Frameworks */,
+				EAD3E59F819E860F12AE6C84B2444039 /* Resources */,
 				00309FDE7D5540C132189D4FD1F3151D /* Headers */,
-				994DC8B53377978F1ED75738AE4AAE17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDD6F5175C1FE83E0AFA69BA275CB63D /* PBXTargetDependency */,
+			);
+			name = ZYSwitch;
+			productName = ZYSwitch;
+			productReference = B7A82B2C3B2518997C7B8036C6B52BFA /* ZYSwitch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C56280874A8F912D5A99A2490709AFD8 /* ZYSwitch-ZYSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 087BC191A774B87C27A4BCEB8EF1CE84 /* Build configuration list for PBXNativeTarget "ZYSwitch-ZYSwitch" */;
+			buildPhases = (
+				65835C271481A596F0D3830019C13314 /* Sources */,
+				11E7CE926C8C227480CF8E9BF188129B /* Frameworks */,
+				2A9327BA8FD416B121223F72BA92EB27 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ZYSwitch;
-			productName = ZYSwitch;
-			productReference = 28EB44B87101B24CF6A1A71798306C0E /* ZYSwitch.framework */;
-			productType = "com.apple.product-type.framework";
+			name = "ZYSwitch-ZYSwitch";
+			productName = "ZYSwitch-ZYSwitch";
+			productReference = 0C071BFFD09B7FF29DA24A24495CA705 /* ZYSwitch.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		F362E4E59F2F9C9F3238371371AB3BED /* Pods-ZYSwitch_Tests */ = {
 			isa = PBXNativeTarget;
@@ -337,7 +374,7 @@
 			);
 			name = "Pods-ZYSwitch_Tests";
 			productName = "Pods-ZYSwitch_Tests";
-			productReference = 8FA8E17F153BCA619B743EF0277A67D3 /* Pods_ZYSwitch_Tests.framework */;
+			productReference = 95EDEF1FBC8FC0503BFE83E5AF9BFCE4 /* Pods_ZYSwitch_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -357,23 +394,32 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 40232B02D3405003A7CB4943EDB365EE /* Products */;
+			productRefGroup = 6387EA2057C4A27AC5E084EC7D093B51 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				4739550DCDC90D7735393027185AADF3 /* Pods-ZYSwitch_Example */,
 				F362E4E59F2F9C9F3238371371AB3BED /* Pods-ZYSwitch_Tests */,
 				7C776753DE63CEA03C014652FB43A3B8 /* ZYSwitch */,
+				C56280874A8F912D5A99A2490709AFD8 /* ZYSwitch-ZYSwitch */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		994DC8B53377978F1ED75738AE4AAE17 /* Resources */ = {
+		2A9327BA8FD416B121223F72BA92EB27 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3FE1251670211E85479C3EB26012EEC /* image.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD3E59F819E860F12AE6C84B2444039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF191CE358EE3C43A2F47D5BE6056C68 /* switch.xcassets in Resources */,
+				25808CBC8DFDA2D166F08692A054D888 /* ZYSwitch.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +443,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		65835C271481A596F0D3830019C13314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EF8F4EC151AC85FAB2F1B99DA3BE7FCF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -413,6 +466,12 @@
 			name = ZYSwitch;
 			target = 7C776753DE63CEA03C014652FB43A3B8 /* ZYSwitch */;
 			targetProxy = 059917BFAD611E8861717C939F9B907F /* PBXContainerItemProxy */;
+		};
+		FDD6F5175C1FE83E0AFA69BA275CB63D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ZYSwitch-ZYSwitch";
+			target = C56280874A8F912D5A99A2490709AFD8 /* ZYSwitch-ZYSwitch */;
+			targetProxy = F06F0C33F8CC69D3CA14F21207414B13 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -489,7 +548,7 @@
 		};
 		3BA2FAFB339807647E6587438DA34137 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BC5FEC901B26FBD6E5EB0B79E1E380E /* ZYSwitch.xcconfig */;
+			baseConfigurationReference = 91A836DF7984E3EA4CADC375A99971B9 /* ZYSwitch.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -558,6 +617,23 @@
 			};
 			name = Release;
 		};
+		9B3A5FE30859AAF6520E93B4E9753B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91A836DF7984E3EA4CADC375A99971B9 /* ZYSwitch.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZYSwitch";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/ZYSwitch/ResourceBundle-ZYSwitch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ZYSwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -604,7 +680,7 @@
 		};
 		A25F6AB59751EAF2D9CC2C3878CFD804 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BC5FEC901B26FBD6E5EB0B79E1E380E /* ZYSwitch.xcconfig */;
+			baseConfigurationReference = 91A836DF7984E3EA4CADC375A99971B9 /* ZYSwitch.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -703,9 +779,35 @@
 			};
 			name = Release;
 		};
+		E97EA9B387BC28CADDF0163B406E64E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91A836DF7984E3EA4CADC375A99971B9 /* ZYSwitch.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZYSwitch";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/ZYSwitch/ResourceBundle-ZYSwitch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ZYSwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		087BC191A774B87C27A4BCEB8EF1CE84 /* Build configuration list for PBXNativeTarget "ZYSwitch-ZYSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E97EA9B387BC28CADDF0163B406E64E4 /* Debug */,
+				9B3A5FE30859AAF6520E93B4E9753B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

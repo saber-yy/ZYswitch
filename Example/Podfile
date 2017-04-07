@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'ZYSwitch_Example' do
-  pod 'ZYSwitch', :path => '../'
+  pod 'ZYSwitch',:path => '../Widget'
 
   target 'ZYSwitch_Tests' do
     inherit! :search_paths

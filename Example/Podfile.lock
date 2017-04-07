@@ -1,16 +1,16 @@
 PODS:
-  - ZYSwitch (1.0.2)
+  - ZYSwitch (1.0.0)
 
 DEPENDENCIES:
-  - ZYSwitch (from `../`)
+  - ZYSwitch (from `../Widget`)
 
 EXTERNAL SOURCES:
   ZYSwitch:
-    :path: ../
+    :path: ../Widget
 
 SPEC CHECKSUMS:
-  ZYSwitch: 5af2496771207405165a0e8d41f49fb5461d9f01
+  ZYSwitch: 2cf7fd1d241caedd80682d891022a4d52e36047e
 
-PODFILE CHECKSUM: 2e9f3f791c8968afe846f32a0c5f53ba9840d747
+PODFILE CHECKSUM: d602b2609c16c4700395f37129719560937cda1e
 
 COCOAPODS: 1.2.0
